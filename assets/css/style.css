@@ -1,0 +1,180 @@
+*{
+    margin: 0 auto;
+}
+
+body{
+    background-color: #e2e2e2;
+}
+
+.divTudo{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(209, 209, 210);
+}
+
+.divLinha{
+    clear: both;
+}
+
+.h2TituloSessao{
+    font-size: 20px;
+}
+
+#divCabecalho{
+    background-color: #162e58;
+    min-height: 100px;
+    padding: 20px 50px 10px 50px;
+}
+
+#h1TituloCabecalho{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    float: left;
+    text-align: left;
+}
+
+#divClassificacao{
+    width: 50%;
+}
+
+#tableClassificacao{
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#h3tituloGrupo{
+    font-size: 14px;
+    padding: 5px;
+}
+
+.h2TituloSessao{
+    font-size: 20px;
+    padding: 10px;
+}
+
+table, td, th{
+    border-bottom: solid 1px #e2e2e2;
+    border-collapse: collapse;
+    padding: 7px;
+}
+
+th{
+    color: darkgray;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+}
+
+td{
+    font-size: 14px;
+    text-align: center;
+}
+
+.imgClube{
+    width: 20px;
+    height: 20px;
+}
+
+#divGoleadores{
+    width: 50%;
+}
+
+#tableGoleadores{
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#divJogos{
+    width: 50%;
+}
+
+#tableJogos{
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.divEmp{
+    background-image: url("../css/img/e.svg");
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: 5px;
+}
+.divVit{
+    background-image: url("../css/img/v.svg");
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: 5px;
+
+}
+.divDer{
+    background-image: url("../css/img/d.svg");
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: 5px;
+}
+
+.tdPosicao{
+    width: 3%;
+}
+.tdImgClube{
+    width: 5%;
+}
+.tdNomeClube{
+    width: 40%;
+    text-align: left;
+}
+.thUltimas{
+    width: 20%;
+}
+.thNomeClube{
+    text-align: left;
+    text-align: center;
+}
+
+.tdJogador{
+    width: 90%;
+    text-align: left;
+}
+
+.spanNomeClube{
+    color: darkgray;
+    font-size: 12px;
+}
+
+#tableGoleadores td{
+    padding: 10px 10px 10px 10px;
+}
+
+#thJogador{
+    text-align: center;
+}
+
+.tableJogo{
+    width: 100%;
+}
+
+.tableJogo th{
+    text-align: left;
+}
+
+.tableJogo .tdClube{
+    text-align: left;
+    width: 80%;
+}
+
+.tableJogo .tdHorario{
+    width: 20%;
+    font-size: 10px;
+}
+
+#tableJogos th, #tableJogos td{
+    border-bottom: 0px;
+}
